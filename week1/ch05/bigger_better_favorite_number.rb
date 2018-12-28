@@ -4,3 +4,10 @@
 
 
 ### Your Code Here ###
+puts "What is your favorite number?"
+
+fav_number = gets.to_i
+
+fav_number_better = fav_number + 1
+
+puts "What about " + fav_number_better.to_s + " as a better option?"

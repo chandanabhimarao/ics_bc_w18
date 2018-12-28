@@ -5,3 +5,7 @@
 
 
 ### Your Code Here ###
+days_in_a_year = 365.25
+hours_in_a_year = days_in_a_year * 24
+
+puts hours_in_a_year

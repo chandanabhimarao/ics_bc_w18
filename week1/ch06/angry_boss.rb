@@ -4,3 +4,11 @@
 
 
 ### Your Code Here ###
+
+puts "WHAT DO YOU WANT?!????"
+
+response = gets.chomp
+
+puts response.upcase + "?????!!!!"
+
+puts "SHUT UP! YOU'RE FIRED!!!"

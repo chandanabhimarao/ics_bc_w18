@@ -5,3 +5,12 @@
 
 
 ### Your Code Here ###
+days = (150-36)*365 + 36*366 + 280
+
+hours = 24 * days
+
+minutes = 60 * hours
+
+seconds = 60 * minutes
+
+puts seconds
