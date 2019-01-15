@@ -2,6 +2,10 @@ def romanize_new number
 
   roman_number = ""
 
+    if number < 1 || number >= 3000
+      return nil
+    end
+
     div_thousand = number/1000
 
     if div_thousand == 1
