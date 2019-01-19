@@ -4,10 +4,15 @@
 def count_array(array)
   count = 0
 
-
+  array.each do |item|
+    if item.kind_of?(Numeric)
+      count += 1
+    else
+      count += count_array(item)
+    end
+  end
   # FILL IN WITH YOUR CODE #
-
-
+  return count
 end
 
 puts(count_array([[2, 4, 6], 8, [10, 12, [14, 16]]])) # expected: 8
